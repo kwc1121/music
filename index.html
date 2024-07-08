@@ -12,13 +12,19 @@
     </header>
     <section class="sec1">
         <h1>무엇을 추천해드릴까요?</h1>
-        <div class="button">
+        <div class="button1">
             
-            <input type="button" value="장르">
-            <input type="button" value="음악">
-            <input type="button" value="아티스트">
+            <button  onclick="navigateTo('genre.html')">장르</button>
+            <button  onclick="navigateTo('music.html')">음악</button>
+            <button  onclick="navigateTo('artist.html')">아티스트</button>
         </div>
     </section>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
     
 </body>
 </html>
