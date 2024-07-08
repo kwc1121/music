@@ -1,6 +1,7 @@
 body {
     background-color: #191414;
     width: 100%;
+    background-image:url(image.png);
 }
 
 img {
@@ -15,16 +16,21 @@ header{
     height: 70px;
     border-bottom: 1px solid white;
 }
-main{
-    height: 100%;
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 100%;
+    height: 100%;
 }
-.button{
+.button {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin: 0 auto;
-    margin-top: 350px;
+    position: absolute;
+    top: 60%; 
 }
 .button input{
     display: flex;
@@ -34,5 +40,21 @@ main{
     align-items: center;
     flex-shrink: 0;
     border-radius: 28px;
-    background: #84FB82;    
+    background: #84FB82; 
+    transition: background-color 1s, transform 1s; /* 부드러운 전환 효과 추가 */
+   
+}
+
+section h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.button input:hover {
+    background-color: #829DFB; /* hover 시 배경색 변경 */
+    transform: scale(1.1); /* hover 시 버튼 크기 증가 */
 }
