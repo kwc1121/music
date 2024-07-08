@@ -1,0 +1,38 @@
+body {
+    background-color: #191414;
+    width: 100%;
+}
+
+img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+header{
+    height: 70px;
+    border-bottom: 1px solid white;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 350px;
+}
+.button input{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    padding: 15px 12px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #84FB82;    
+}
