@@ -43,7 +43,7 @@ section {
     flex-shrink: 0;
     border-radius: 28px;
     background: #84FB82; 
-    transition: background-color 1s, transform 1s; /* 부드러운 전환 효과 추가 */
+    transition: background-color 1s, transform 1s; 
     text-align: center;
    
 }
@@ -58,6 +58,6 @@ section h1 {
     transform: translateY(-50%);
 }
 .button1 button:hover {
-    background-color: #829DFB; /* hover 시 배경색 변경 */
-    transform: scale(1.1); /* hover 시 버튼 크기 증가 */
+    background-color: #829DFB; 
+    transform: scale(1.1); 
 }

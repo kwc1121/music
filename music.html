@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="music.css">
+    
 </head>
 <body>
-    
+    <header>
+        <img src="icon.png" alt="Icon">
+    </header>
+    <section class="sec1">
+        <h1>추천 노래</h1>
+        <div id="music-display" class="music-output"></div>
+        <div id="button-design">
+            <button onclick="navigateTo('index.html')">되돌아가기</button>
+            <button onclick="location.reload(true);">새로고침</button>
+        </div>
+    </section>
+
+    <script src="music.js"></script>
 </body>
 </html>

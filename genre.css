@@ -32,3 +32,18 @@ img {
     font-size: 100px;
     
 }
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 28px;
+    background-color:#84FB82;
+    
+}
+
+#button-design{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
